@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.example.unacademy.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/logoHeight"
+        android:background="@drawable/unacademy"
+        android:layout_margin="@dimen/logoMargin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="64dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect With"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="#999999"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="|       Facebook"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/rsz_facebook"
+            android:paddingLeft="24dp"
+            android:drawablePadding="-48dp"
+            android:background="@drawable/shape" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="|       Google"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/googleplus"
+            android:paddingLeft="24dp"
+            android:drawablePadding="-64dp"
+            android:background="@drawable/shape2"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue With Email"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:background="@drawable/shape3" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/term"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"/>
+
+</LinearLayout>
